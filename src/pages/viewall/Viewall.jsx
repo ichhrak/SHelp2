@@ -40,7 +40,7 @@ const data = [
   },
   {
     id: 6,
-    title: "Planr management",
+    title: "Plant management",
     image: "https://example.com/card3.png",
     price: 25,
     experience: "Advanced",
