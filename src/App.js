@@ -9,21 +9,19 @@ import Viewall from "./pages/viewall/Viewall.jsx"
 import About from "./pages/about/About.jsx"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-
 function App() {
   return (
-    <Router>
+    <Router basename="/SHelp2">
       <TopBar />
-      <Home1 />
       <Routes>
-        <Route path="/" element={<Home1 />}/>
-        <Route path="/Home" element={<Home1 />}/>
-        <Route path="/Login" element={<Login />}/>
-        <Route path="/Search" element={<Search />}/>
-        <Route path="/Services" element={<Services />}/>
-        <Route path="/Register" element={<Register />}/>
-        <Route path="/Viewall" element={<Viewall />}/>
-        <Route path="/About" element={<About />}/>
+        <Route path="/" element={<Home1 />} />
+        <Route path="/Home" element={<Home1 />} />
+        <Route path="/Login" element={<Login />} />
+        <Route path="/Search" element={<Search />} />
+        <Route path="/Services" element={<Services />} />
+        <Route path="/Register" element={<Register />} />
+        <Route path="/Viewall" element={<Viewall />} />
+        <Route path="/About" element={<About />} />
       </Routes>
       <Footer />
     </Router>     
