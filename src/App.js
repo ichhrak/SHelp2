@@ -14,8 +14,8 @@ function App() {
   return (
     <Router>
       <TopBar />
+      <Home1 />
       <Routes>
-      <Route path="/Shelp2/" element={<Home1 />}/>
         <Route path="/" element={<Home1 />}/>
         <Route path="/Home" element={<Home1 />}/>
         <Route path="/Login" element={<Login />}/>
