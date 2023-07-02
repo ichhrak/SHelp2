@@ -14,6 +14,7 @@ function App() {
     <Router basename="/SHelp2">
       <TopBar />
       <Routes>
+        <Route path="" element={<Home1 />} />
         <Route path="/SHelp2/" element={<Home1 />} />
         <Route path="/Home" element={<Home1 />} />
         <Route path="/Login" element={<Login />} />
