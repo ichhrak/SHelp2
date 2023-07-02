@@ -23,6 +23,7 @@ const data = [
     price: 30,
     experience: "Advanced",
   },
+
   {
     id: 4,
     title: "Dog walking",
@@ -36,6 +37,13 @@ const data = [
     image: "https://example.com/card3.png",
     price: 25,
     experience: "Beginner",
+  },
+  {
+    id: 6,
+    title: "Planr management",
+    image: "https://example.com/card3.png",
+    price: 25,
+    experience: "Advanced",
   },
 ];
 
